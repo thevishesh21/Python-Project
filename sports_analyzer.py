@@ -52,7 +52,7 @@ def enter_manual_matches(sport):
 
 def read_from_csv(sport):
     """Read match data from CSV file"""
-    filename = f"{sport.lower()}.csv"
+    filename = f"{sport.lower()}_csv.csv"
     
     if not os.path.exists(filename):
         print(f"\n❌ Error: {filename} not found!")
